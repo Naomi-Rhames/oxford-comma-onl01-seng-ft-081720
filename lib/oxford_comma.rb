@@ -1,3 +1,4 @@
 def oxford_comma(array)
-  oxford_comma << ["kiwi"]
+  oxford_comma(array).split("kiwi")
+  =>["kiwi"]
 end
